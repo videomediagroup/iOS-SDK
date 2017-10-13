@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+
+target 'VMG Demo' do
+  use_frameworks!
+
+  # Pods for VMG Demo
+  pod 'VMGSDK', :path => '../'
+end
