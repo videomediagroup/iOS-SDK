@@ -1,0 +1,11 @@
+framework module VMGSDK {
+  umbrella header "VMGSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module VMGSDK.Swift {
+    header "VMGSDK-Swift.h"
+    requires objc
+}
