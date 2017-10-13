@@ -17,4 +17,4 @@ pod "VMGSDK"
 
 ## Integration
 
-Documentation can be found in [DOCUMENTATION.md](https://github.com/videomediagroup/iOS-SDK/DOCUMENTATION.md) or in the [PDF](https://github.com/videomediagroup/iOS-SDK/VMG%20iOS%20SDK%20Documentation.pdf)
+Documentation can be found in [DOCUMENTATION.md](https://github.com/videomediagroup/iOS-SDK/blob/master/DOCUMENTATION.md) or in the [PDF](https://github.com/videomediagroup/iOS-SDK/blob/master/VMG%20iOS%20SDK%20Documentation.pdf)
