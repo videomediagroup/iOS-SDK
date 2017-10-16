@@ -1,4 +1,4 @@
-# VMGMSDK
+# VMG iOS SDK
 
 The VMG SDK allows you to integrate the inPageVideo format by VMG in your app. Contact your account manager to acquier test identifiers.
 
