@@ -10,7 +10,7 @@ The VMG SDK is compatible with iOS 8+.
 
 ### 1. Prerequisites
 
-Before starting you should have available to you a test `app_id` and at least one test `placement_id`, you can acquire these through your account manager at VMG. It's important to keep in mind that before submitting your app to the App Store you will need to remove your test `website_id` and `placement_id`. The `app_id` is used for basic configuration of the SDK, a `placement_id` is used for an ad view in your app. Your app can have multiple unique placement id's for different sections in your app, e.g. for the news section and sport section, this is useful for category targeting.
+Before starting you should have available to you a test `app_id` and at least one test `placement_id`, you can acquire these through your account manager at VMG. It's important to keep in mind that before submitting your app to the App Store you will need to remove your test `app_id` and `placement_id`. The `app_id` is used for basic configuration of the SDK, a `placement_id` is used for an ad view in your app. Your app can have multiple unique placement id's for different sections in your app, e.g. for the news section and sport section, this is useful for category targeting.
 
 #### Get the SDK
 
