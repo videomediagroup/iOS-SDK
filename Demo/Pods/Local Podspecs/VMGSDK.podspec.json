@@ -1,19 +1,18 @@
 {
   "name": "VMGSDK",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "summary": "VMG iOS SDK",
-  "description": "The VMG iOS SDK enables you to integrate our SDK in our app.",
+  "description": "The VMG iOS SDK lets you to integrate our SDK in your app.",
   "homepage": "https://github.com/videomediagroup/iOS-SDK",
   "license": {
-    "type": "MIT",
-    "file": "LICENSE"
+    "type": "UNLICENSED"
   },
   "authors": {
     "Tim": "tim.wachter@videomediagroup.com"
   },
   "source": {
     "git": "https://github.com/videomediagroup/iOS-SDK.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
