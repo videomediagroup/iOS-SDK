@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VMGSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'VMG iOS SDK'
 
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_frameworks = 'VMGSDK.framework'
   
-  s.dependency 'Alamofire', '~> 4.5.1'
-  s.dependency 'Observable', '~> 1.1.0'
-  s.dependency 'JSQWebViewController', '~> 5.0.0'
+  s.dependency 'Alamofire', '~> 4.6.0'
+  s.dependency 'Observable', '~> 1.3.2'
+  s.dependency 'JSQWebViewController', '~> 6.0.0'
 end

@@ -1,11 +1,11 @@
 PODS:
-  - Alamofire (4.5.1)
-  - JSQWebViewController (5.0.0)
-  - Observable (1.1.0)
-  - VMGSDK (1.0.1):
-    - Alamofire (~> 4.5.1)
-    - JSQWebViewController (~> 5.0.0)
-    - Observable (~> 1.1.0)
+  - Alamofire (4.6.0)
+  - JSQWebViewController (6.0.0)
+  - Observable (1.3.2)
+  - VMGSDK (1.0.2):
+    - Alamofire (~> 4.6.0)
+    - JSQWebViewController (~> 6.0.0)
+    - Observable (~> 1.3.2)
 
 DEPENDENCIES:
   - VMGSDK (from `../`)
@@ -15,11 +15,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  JSQWebViewController: 0461aa42612b221571556df61d9c09f080cb2eef
-  Observable: 61bb1522c583d363655bf813dc0298c9183c9a42
-  VMGSDK: 7fb79ceb63f99c17ba3a70de767470d572c05999
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  JSQWebViewController: 51041569b75d19dbb6b7fe0b7ae053c32409a9be
+  Observable: 7283b453a314f5d881b5dbac2d51aba2acb26ef3
+  VMGSDK: 4c83ae8b2d8a01a82f746475abaef9e8a5fe8f14
 
 PODFILE CHECKSUM: 5a366a9a538e694d742dc1e160c34043c669cb1d
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0

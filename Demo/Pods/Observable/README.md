@@ -4,23 +4,18 @@
 
 **Observable** is the easiest way to observe values in Swift.
 
-![Swift 3.1](https://img.shields.io/badge/Swift-3.1-orange.svg)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/Observable.svg)](#cocoapods)
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
-
-
 ## How to
 
-### Create an Observable
+### Create an Observable 
 
 ```swift
 var position = Observable(CGPoint.zero)
 ```
 
-### Start observing
+### Add an observer
 
 ```swift
-position.addObserver(self) { newPosition in
+position.observe { p in
     // handle new position
 }
 ```
@@ -28,13 +23,28 @@ position.addObserver(self) { newPosition in
 ### Change the value
 
 ```swift
-position.value = newPosition
+position.value = p
 ```
 
-### Stop observing
+## Memory management
+
+For a single observer you can store the returned `Disposable` to a variable
 
 ```swift
-position.removeObserver(self)
+disposable = position.observe { p in
+
+```
+
+For multiple observers you can add the disposable to a `Disposal` variable
+
+```swift
+position.observe { }.add(to: &disposal)
+```
+
+And always weakify `self` when referencing `self` inside your observer
+
+```swift
+position.observe { [weak self] position in
 ```
 
 ## Installation
@@ -51,7 +61,3 @@ pod 'Observable'
 ## Suggestions or feedback?
 
 Feel free to create a pull request, open an issue or find [me on Twitter](https://twitter.com/roberthein).
-
-## License
-
-Observable is released under the MIT license. [See LICENSE](https://github.com/roberthein/Observable/blob/master/LICENSE) for details.
