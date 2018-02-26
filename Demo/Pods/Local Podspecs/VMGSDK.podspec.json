@@ -1,6 +1,6 @@
 {
   "name": "VMGSDK",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "VMG iOS SDK",
   "description": "The VMG iOS SDK lets you to integrate our SDK in your app.",
   "homepage": "https://github.com/videomediagroup/iOS-SDK",
@@ -12,10 +12,10 @@
   },
   "source": {
     "git": "https://github.com/videomediagroup/iOS-SDK.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "ios": {
     "vendored_frameworks": "VMGSDK.framework"
@@ -26,9 +26,6 @@
     ],
     "Observable": [
       "~> 1.3.2"
-    ],
-    "JSQWebViewController": [
-      "~> 6.0.0"
     ]
   }
 }

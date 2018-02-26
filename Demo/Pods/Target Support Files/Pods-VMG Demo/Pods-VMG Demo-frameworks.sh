@@ -135,13 +135,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JSQWebViewController/JSQWebViewController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Observable/Observable.framework"
   install_framework "${PODS_ROOT}/../../VMGSDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JSQWebViewController/JSQWebViewController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Observable/Observable.framework"
   install_framework "${PODS_ROOT}/../../VMGSDK.framework"
 fi
